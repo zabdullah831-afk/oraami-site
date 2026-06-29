@@ -1,6 +1,14 @@
-
+import Navbar from "./components/navbar"
+import Hero from "./components/herosection"
+import TrustBar from "./components/trustbar"
+import Heroimg from "./components/heroimg"
 export default function Home() {
   return (
-    <h1>hello</h1>
+    <main>
+    <Navbar/>
+    <Hero/>
+    <Heroimg/>
+    <TrustBar/>
+    </main>
   );
 }
